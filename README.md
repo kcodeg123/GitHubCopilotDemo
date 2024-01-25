@@ -8,8 +8,8 @@
 * Getting Started with GitHub Copilot for Business
 	* Discuss access level needed to configure GitHub Copilot for Business and how to grant those permissions
 		* Enterprise Level
-  	* Organization Level
-  	* End User Level
+	  	* Organization Level
+	  	* End User Level
 * Prompt Engineering
 		* Zero-Shot, One-Shot, Few-Shot Prompting
 		* Cornerstones of Prompting
