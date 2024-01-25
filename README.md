@@ -11,13 +11,13 @@
 	  	* Organization Level
 	  	* End User Level
 * Prompt Engineering
-		* Zero-Shot, One-Shot, Few-Shot Prompting
-		* Cornerstones of Prompting
+	* Zero-Shot, One-Shot, Few-Shot Prompting
+	* Cornerstones of Prompting
 * Tips & Tricks
-		* Best Practices when using Copilot
-		* Neighboring Tabs
-		* Role Prompting
-		* Lets think step by step
+	* Best Practices when using Copilot
+	* Neighboring Tabs
+	* Role Prompting
+	* Lets think step by step
 * Demo how GitHub Copilot can be used by a developer for their day to day routine
 	*	For example:
 		* Rest API to Fetch & list repos from a GitHub Org
