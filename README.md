@@ -47,6 +47,10 @@ Here are the main topics covered in the content:
 * Advanced prompt engineering
 * Code challenges: .Net, NodeJS & IaC
 
+-----
+
+> The following section is optional. To be shared only for information purposes.
+
 ### Module 2.2 - Mastering GitHub Copilot for AI Paired Programming - Microsoft organization on GitHub 
 
 [The repo](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming) contains the following topics:
