@@ -31,9 +31,16 @@
 * Future Roadmap of GitHub Copilot for Business
 * Q&A
 
-## Module 2 - Copilot Hands-on Lab
+## Module 2 - GitHub usage statistics
 
-### Module 2.1 - GitHub Copilot Fundamentals
+[GitHub Copilot usage REST API [alpha]](https://docs.github.com/en/enterprise-cloud@latest/early-access/copilot/copilot-usage-api#code-samples-1) can be used to see a daily breakdown of aggregated Copilot usage metrics across your organization or enterprise members for the past 28 days, with a further breakdown of suggestions, acceptances, and number of active users by editor and language for each day. The usage metrics are processed once per day for the previous day, and the response will only include data up until yesterday. 
+
+Additional things to test:
+* https://github.com/orgs/community/discussions/68296
+
+## Module 3 - Copilot Hands-on Lab
+
+### Module 3.1 - GitHub Copilot Fundamentals
 
 The workshop instruction are available on [MOAW.dev: Github Copilot](https://moaw.dev/workshop/github-copilot/). It'll take around 3-4 hours to complete.
 
@@ -51,7 +58,7 @@ Here are the main topics covered in the content:
 
 > The following section is optional. To be shared only for information purposes.
 
-### Module 2.2 - Mastering GitHub Copilot for AI Paired Programming - Microsoft organization on GitHub 
+### Module 3.2 - Mastering GitHub Copilot for AI Paired Programming - Microsoft organization on GitHub 
 
 [The repo](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming) contains the following topics:
 
