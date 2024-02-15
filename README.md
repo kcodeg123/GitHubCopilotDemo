@@ -35,6 +35,9 @@
 
 [GitHub Copilot usage REST API [alpha]](https://docs.github.com/en/enterprise-cloud@latest/early-access/copilot/copilot-usage-api#code-samples-1) can be used to see a daily breakdown of aggregated Copilot usage metrics across your organization or enterprise members for the past 28 days, with a further breakdown of suggestions, acceptances, and number of active users by editor and language for each day. The usage metrics are processed once per day for the previous day, and the response will only include data up until yesterday. 
 
+Main target:
+* Which users are not using Copilot
+
 Additional things to test:
 * https://github.com/orgs/community/discussions/68296
 
