@@ -44,6 +44,7 @@ If Copilot has a suggested fix for your code, it shows you. If not, you can ask 
 3. Ask Copilot to fix the issue in the code
 
 ![image](https://github.com/kcodeg123/GitHubCopilotDemo/assets/3813135/c80c4d9e-b4eb-4400-9ca0-7571d77e3d4b)
+
 5. Debug the code again
 
 # Get Copilot to expand the codebase
