@@ -46,7 +46,15 @@ Select the data as the context, open up GitHub Copilot Chat and enter the follow
 * `I need this class to be very resilient. What can I do for that?`
 * `Looks great, could you also help me to add logging? We usually log to the console in my project.`
 
-## 3. Optimize Code Complexity
+## 3. Slash Commands
+
+[Reference](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-chat-context?view=vs-2022#slash-commands)
+
+Slash commands in Copilot Chat help you set the intent quickly for common development tasks. By using specific slash commands to form your question, you can get better answers without having to write out long questions. Commands that help modify or add to the code file you have open in the editor will work both in the inline code assistant and the chat windows whereas commands for more general coding questions work only in the chat pane.
+
+![image](https://github.com/kcodeg123/GitHubCopilotDemo/assets/3813135/6085b197-cd10-46b1-b06c-63fee101927a)
+
+### 3.1. Optimize Code Complexity using `/optimize`
 
 Create a new **C# Console App** with the name **ComplexityOptimization** and the following code:
 
@@ -76,3 +84,14 @@ Create a new **C# Console App** with the name **ComplexityOptimization** and the
         }
 
 In the Copilot Chat window, try the slash command `/optimize` after selecting the above code.
+
+## Scope Copilot results to a particular file
+
+* Select the specific scope you want GitHub Copilot to use for answering the prompts
+* Form better questions easily without having to write out or paste long pieces of information
+* Get more relevant answers
+
+![image](https://github.com/kcodeg123/GitHubCopilotDemo/assets/3813135/07ff5c96-f0b0-407b-bce2-be9684b55281)
+
+
+Use `#` to select a file and try to prompt `Optimize this code`
