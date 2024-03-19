@@ -1,6 +1,6 @@
 [Reference](https://learn.microsoft.com/en-us/visualstudio/debugger/debug-with-copilot?view=vs-2022)
 
-# Get Copilot to debug your App
+# 1. Get Copilot to debug your App
 
 1. Open Visual Studio
 2. Create a new project > Console App
@@ -37,7 +37,7 @@ If Copilot has a suggested fix for your code, it shows you. If not, you can ask 
 
 **Cancel the changes so that we can continue with this demo.**
 
-# Get Copilot to help with an exception
+# 2. Get Copilot to help with an exception
 
 1. Remove the breakpoint
 2. Run Debug > **Start Debugging**
@@ -47,8 +47,41 @@ If Copilot has a suggested fix for your code, it shows you. If not, you can ask 
 
 5. Debug the code again
 
-# Get Copilot to expand the codebase
+# 3. Get Copilot to expand the codebase
 
 1. Now use Copilot to add some print statement 'n' number of times where 'n' is the length of the parameter
 2. Add a parameter by going to Debug > "ConsoleAppName" Debug Properties and add an integer value like **5** in the **command line arguments**.
 3. Run the debug again and see the output
+
+# 4. Get AI assistance for auto insights
+
+> TESTING PENDING
+
+Use this code:
+
+        using System;
+        using System.Threading;
+        
+        class HighCPUUsage
+        {
+            static void Main()
+            {
+                Console.WriteLine("Running high CPU load for 10 seconds...");
+                DateTime endTime = DateTime.Now.AddSeconds(10); // Run for 10 seconds
+        
+                while (DateTime.Now < endTime)
+                {
+                    // Perform some meaningless computation to keep CPU busy
+                    double result = Math.Pow(Math.PI, Math.E) * Math.Sqrt(Math.Log10(Math.PI * Math.E));
+                }
+        
+                Console.WriteLine("High CPU load complete.");
+            }
+        }
+
+Run Debug > **Performance Profiler**
+
+In the Top Insights, select the **Ask Copilot** option to get recommendations.
+
+![image](https://github.com/kcodeg123/GitHubCopilotDemo/assets/3813135/51c63eee-85b9-492e-b77e-9e15a8988d5c)
+
