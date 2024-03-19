@@ -41,6 +41,9 @@ Main target:
 Additional things to test:
 * https://github.com/orgs/community/discussions/68296
 
+----
+# Out of Scope modules
+
 ## Module 3 - Copilot Hands-on Lab
 
 ### Module 3.1 - GitHub Copilot Fundamentals
