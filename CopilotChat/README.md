@@ -85,7 +85,7 @@ Create a new **C# Console App** with the name **ComplexityOptimization** and the
 
 In the Copilot Chat window, try the slash command `/optimize` after selecting the above code.
 
-## Scope Copilot results to a particular file
+## 4. Scope Copilot results to a particular file
 
 * Select the specific scope you want GitHub Copilot to use for answering the prompts
 * Form better questions easily without having to write out or paste long pieces of information
