@@ -45,3 +45,34 @@ Select the data as the context, open up GitHub Copilot Chat and enter the follow
 * `I have a .csv file containing information in the following structure. Please help me setup a class in C# to handle CRUD operations for this file.`
 * `I need this class to be very resilient. What can I do for that?`
 * `Looks great, could you also help me to add logging? We usually log to the console in my project.`
+
+## 3. Optimize Code Complexity
+
+Create a new **C# Console App** with the name **ComplexityOptimization** and the following code:
+
+        using System;
+        
+        public class ComplexityOptimization
+        {
+            // Function to find the nth Fibonacci number using recursion
+            // This implementation has high time complexity O(2^n) and high space complexity O(n) due to recursion and call stack
+            public static int FibonacciRecursive(int n)
+            {
+                if (n <= 1)
+                    return n;
+                else
+                    return FibonacciRecursive(n - 1) + FibonacciRecursive(n - 2);
+            }
+        
+            public static void Main(string[] args)
+            {
+                int n = 10;
+        
+                // Calculating nth Fibonacci number using recursive approach
+                Console.WriteLine("Using Recursive Approach:");
+                Console.WriteLine($"Fibonacci({n}) = {FibonacciRecursive(n)}");
+        
+            }
+        }
+
+In the Copilot Chat window, try the slash command `/optimize` after selecting the above code.
