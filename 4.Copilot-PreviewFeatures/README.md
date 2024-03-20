@@ -116,7 +116,14 @@ Here's a potential before and after of the Performance enhancement:
 
 ## 3. Enable commit message suggestions
 
+Once you are ready to commit your new changes, you can see the following option (Visual Studio 2022):
+
+
+
 ## 4. Enable referencing your #Solution (currently C# only)
+
+![image](https://github.com/kcodeg123/GitHubCopilotDemo/assets/3813135/b7ae285e-ab57-4321-9f81-2d95bff628ea)
+
 
 ## 5. Enable rename suggestions
 
