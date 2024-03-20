@@ -7,27 +7,25 @@ GitHub Copilot Chat brings Context to a conversation, which wasn't possible with
 Let's review a poorly documented regex code. Instead of pulling up some regex documentation, let's see what copilot chat can do.
 
         import re
-        
+            
         e_regex = r'^[\w\.\+\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$'
         p_regex = r'^(\+)?1?\d{9,15}$'
         s_regex = r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$'
-        
+            
         def checkvalid(text, regex):
             if re.search(regex, text):
                 return True
             else:
                 return False
-        
+            
         if __name__	== '__main__':
-            print(("valid", "invalid")[checkvalid('',e_regex)])
-            print(("valid", "invalid")[checkvalid('',p_regex)])
-            print(("valid", "invalid")[checkvalid('',s_regex)])
-
-First on GitHub Copilot (inline comments), add this prompt:
-
-        # Enter a valid email, phone number and password to check if they are valid or not
-
-> You might see that Copilot already suggested the comment to enter as it reads from the context, understands and then suggests.
+            # call the checkvalid function with user input
+            email = input("Enter your email: ")
+            print(checkvalid(email, e_regex))
+            phone = input("Enter your phone: ")
+            print(checkvalid(phone, p_regex))
+            password = input("Enter your password: ")
+            print(checkvalid(password, s_regex))
 
 Now try these prompts
 
