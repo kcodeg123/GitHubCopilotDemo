@@ -31,6 +31,80 @@ You can then select an existing project if you followed previous [Getting Starte
 
 ![Select Project](./images/1_SelectProject.jpg)
 
+You can perhaps use the following code for your project:
+
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+    
+    namespace HelloCopilot
+    {
+        public class Program
+        {
+            
+            /*
+             * Function to sum all the numbers in a list of integers
+             */
+            public static int Sum(List<int> numbers)
+            {
+                int sum = 0;
+                foreach (int number in numbers)
+                {
+                    sum += number;
+                }
+                return sum;
+            }
+    
+            // Write a function to randomly assign 4 digit codes to N x M matrix representing lockers
+            public static int[,] AssignLockerCodes(int N, int M)
+            {
+                int[,] lockerCodes = new int[N, M];
+                Random random = new Random();
+                for (int i = 0; i < N; i++)
+                {
+                    for (int j = 0; j < M; j++)
+                    {
+                        lockerCodes[i, j] = random.Next(1000, 10000);
+                    }
+                }
+                return lockerCodes;
+            }
+    
+            static void Main(string[] args)
+            {
+                // Print out Hello, Copilot 3000 times with incrementing index
+                for (int i = 0; i < 3000; i++)
+                {
+                    Console.WriteLine($"Hello, Copilot {i}");
+                }
+    
+                // Create a list of integers
+                List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
+    
+                // Print out the sum of the numbers in the list
+                Console.WriteLine($"The sum of the numbers is {Sum(numbers)}");
+    
+                // Print out the 2D array of 4 digit locker codes
+                Console.WriteLine("Locker codes:");
+                int[,] lockerCodes = AssignLockerCodes(10, 10);
+                for (int i = 0; i < lockerCodes.GetLength(0); i++)
+                {
+                    for (int j = 0; j < lockerCodes.GetLength(1); j++)
+                    {
+                        Console.Write(lockerCodes[i, j] + " ");
+                    }
+                    Console.WriteLine();
+                }
+    
+                Console.ReadLine();
+            }
+    
+        }
+    }
+
+
 ### Step 2: Add new unit testing Project
 
 Once your Visual Studio IDE is opened, you need to add a new project. From top, click **File** then select **Add**. Click **New Project...**.
