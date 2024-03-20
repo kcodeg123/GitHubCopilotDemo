@@ -25,22 +25,26 @@ Let's check out some of these features.
             public static void Main(string[] args)
             {
                 int value = Int32.Parse(args[0]);
+                // print the value of the argument
+                Console.WriteLine("The value of the argument is: " + value);
                 List<String> names = null;
                 if (value > 0)
                     names = new List<String>();
         
                 names.Add("La Ley");
+                // print the list of names
+                Console.WriteLine("The list of names is: " + names);
             }
         }
 
-5. Right-click the following statement and choose **Breakpoint > Insert Breakpoint**
+6. Right-click the following statement and choose **Breakpoint > Insert Breakpoint**
 
         int value = Int32.Parse(args[0]);
-6. Press F5 or select **Start Debugging** from the Debug menu.\
+7. Press F5 or select **Start Debugging** from the Debug menu.\
     The app pauses at the breakpoint. The Autos window shows that the args variable has a value of `string[0]`.
 
-7. Right-click in the code and choose Ask Copilot to open the inline Chat view.
-8. Type the following question in the inline Chat view:
+8. Right-click in the code and choose Ask Copilot to open the inline Chat view.
+9. Type the following question in the inline Chat view:
 
         Why does the args variable have a value of string[0]?
 If Copilot has a suggested fix for your code, it shows you. If not, you can ask Copilot for a code suggestion. You can prompt **/fix** in the inline chat.
