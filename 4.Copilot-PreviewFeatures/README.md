@@ -37,6 +37,8 @@ Let's check out some of these features.
             }
         }
 
+> ENSURE that **Debug > 'AppName' Debug Properties > Command line arguments** is empty to begin with. Later test with a random number.
+
 6. Right-click the following statement and choose **Breakpoint > Insert Breakpoint**
 
         int value = Int32.Parse(args[0]);
