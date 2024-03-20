@@ -112,6 +112,9 @@ Here's a potential before and after of the Performance enhancement:
 
 ## 4. Enable test failure analysis
 
+![image](https://github.com/kcodeg123/GitHubCopilotDemo/assets/3813135/6029aeda-c700-49c2-925d-14bc33c8c096)
+
+
 # Other Preview Features
 
 ## 3. Enable commit message suggestions
