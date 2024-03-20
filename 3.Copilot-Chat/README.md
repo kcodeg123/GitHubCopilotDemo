@@ -23,6 +23,11 @@ Let's review a poorly documented regex code. Instead of pulling up some regex do
             print(("valid", "invalid")[checkvalid('',p_regex)])
             print(("valid", "invalid")[checkvalid('',s_regex)])
 
+First on GitHub Copilot (inline comments), add this prompt:
+        # Enter a valid email, phone number and password to check if they are valid or not
+
+> You might see that Copilot already suggested the comment to enter as it reads from the context, understands and then suggests.
+
 Now try these prompts
 
         Explain the selected regex code
