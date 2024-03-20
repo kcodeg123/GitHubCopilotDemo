@@ -224,3 +224,7 @@ And this is the result after running our second test.
 ![Run second test](./images/25_Completion.jpg)
 
 After this, you can add some more custom example using String, sorting function, etc. But as you can see, Copilot can help you eaisly adopt Test Driven Development (TDD) in an easy way as possible. Or, should we say **Copilot Driven Development**?
+
+# Generate Unit Tests from Copilot Chat
+
+Now you can ask Copilot Chat to generate new unit tests for the C# code. Select the source code and type in the GitHub Copilot Chat window **/tests**. Copy and paste the Unit Tests in the CopilotTest.cs file, Build and Test.
