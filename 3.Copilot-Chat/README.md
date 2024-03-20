@@ -35,7 +35,7 @@ Now try these prompts
 
 Code is now in separate functions with comments and the variables now have much more meaningful names
 
-## 2. Create entire classes just based on a dialog
+## 2. Create entire classes just based on a dialog - OPTIONAL
 
 > Go to VSCode for this part
 
