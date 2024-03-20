@@ -43,7 +43,9 @@ Let's check out some of these features.
 8. Type the following question in the inline Chat view:
 
         Why does the args variable have a value of string[0]?
-If Copilot has a suggested fix for your code, it shows you. If not, you can ask Copilot for a code suggestion.
+If Copilot has a suggested fix for your code, it shows you. If not, you can ask Copilot for a code suggestion. You can prompt **/fix** in the inline chat.
+
+After accepting the solution, try to add more documentation through copilot chat by prompting **/doc**
 
 **Cancel the changes so that we can continue with this demo.**
 
