@@ -37,6 +37,8 @@ Code is now in separate functions with comments and the variables now have much 
 
 ## 2. Create entire classes just based on a dialog
 
+> Go to VSCode for this part
+
 Save the following data in a CSV file
 
         ﻿David;47;Tacos
