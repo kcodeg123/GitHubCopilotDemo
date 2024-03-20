@@ -90,11 +90,25 @@ Use this code:
     }
 
 
-Run Debug > **Performance Profiler**
+Run Debug > **Performance Profiler** (Select CPU Usage)
 
 In the Top Insights, select the **Ask Copilot** option to get recommendations.
 
 ![image](https://github.com/kcodeg123/GitHubCopilotDemo/assets/3813135/51c63eee-85b9-492e-b77e-9e15a8988d5c)
+
+Here's a potential before and after of the Performance enhancement:
+
+**BEFORE**
+
+![image](https://github.com/kcodeg123/GitHubCopilotDemo/assets/3813135/062f92d6-d94a-4fb4-8a53-7711891bf1df)
+
+
+**AFTER**
+
+![image](https://github.com/kcodeg123/GitHubCopilotDemo/assets/3813135/99f42063-f6a6-4a82-8c11-7dabef0699aa)
+
+
+
 
 ## 4. Enable test failure analysis
 
