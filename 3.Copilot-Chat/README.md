@@ -29,9 +29,9 @@ Let's review a poorly documented regex code. Instead of pulling up some regex do
 
 Now try these prompts
 
-        Explain the selected regex code
-        Make this code more readable (OR Better, try the slash command **/doc** to automatically add comments. Better from in-line chat)
-        Seperate out the validation functions and add more comments
+* Explain the selected regex code
+* Make this code more readable (OR Better, try the slash command `\doc` to automatically add comments. Better from in-line chat)
+* Seperate out the validation functions and add more comments
 
 Code is now in separate functions with comments and the variables now have much more meaningful names
 
