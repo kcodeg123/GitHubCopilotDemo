@@ -1,3 +1,43 @@
+You can add the code below for testing the application:
+
+	using System;
+	using System.Collections.Generic;
+	using Microsoft.VisualStudio.TestTools.UnitTesting;
+	
+	using HelloWorld3;
+	
+	namespace TestProject1
+	{
+	    [TestClass]
+	    public class TestWithCopilot2
+	    {
+	        [TestMethod]
+	        public void TestMethod1()
+	        {
+	            // Create a list of integers
+	            List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
+	
+	            // Test the sum function
+	            Assert.AreEqual(Program.Sum(numbers), 15);
+	
+	        }
+	
+	        [TestMethod]
+	        public void addTwoNumbersEqualsCorrect()
+	        {
+	            int sum = Program.AddTwoNumbers(5, 6);
+	            Assert.AreEqual(sum, 11);
+	        }
+	
+	        [TestMethod]
+	        public void addTwoNumbersEqualsIncorrect()
+	        {
+	            int sum = Program.AddTwoNumbers(5, 6);
+	            Assert.AreEqual(sum, 12);
+	        }
+	    }
+	}
+
 # GitHub Copilot Demo - Scope
 
 ## Module 1: Copilot for Business Fundamentals
